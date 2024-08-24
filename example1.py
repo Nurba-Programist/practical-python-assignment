@@ -8,8 +8,8 @@ def draw_frame(width, height):
     print('-' * width)
 
     # Строим боковые границы
-    #for _ in range(height + 2):
-     #   print('|' + ' ' * (width - 2) + '|')
+    for _ in range(height + 2):
+       print('|' + ' ' * (width - 2) + '|')
 
     # Строим нижнюю границу рамки
     print('-' * width)
